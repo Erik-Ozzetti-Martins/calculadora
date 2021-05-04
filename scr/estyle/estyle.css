@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    background: blue
+}
+.container{
+    max-width: 640px;
+    margin: 40px auto ;
+    background:rgb(19, 18, 25);
+    padding: 20px;
+   border-radius: 12px;
+    
+}
+.calculadora{
+    width: 400px;
+}
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    background: #808080;
+    cursor: pointer;
+}
+.btn:hover{
+ background:#8080 
+}
+.btn-eq{
+    background: royalblue;
+}
+.btn-eq:hover{
+    background: blue;
+}
